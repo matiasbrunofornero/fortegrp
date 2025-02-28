@@ -1,0 +1,28 @@
+{
+  "name": "fortegrp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "headless": "npx playwright test && npx playwright show-report",
+    "report": "npx playwright show-report",
+    "test": "npx playwright test --headed && npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasbrunofornero/fortegrp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiasbrunofornero/fortegrp/issues"
+  },
+  "homepage": "https://github.com/matiasbrunofornero/fortegrp#readme",
+  "dependencies": {
+    "playwright": "^1.50.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.6"
+  }
+}
